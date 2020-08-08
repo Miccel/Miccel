@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.329
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Miccel", "Miccel\Miccel.csproj", "{56791204-2911-412F-8918-4E48C5F02EFF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{56791204-2911-412F-8918-4E48C5F02EFF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{56791204-2911-412F-8918-4E48C5F02EFF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{56791204-2911-412F-8918-4E48C5F02EFF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{56791204-2911-412F-8918-4E48C5F02EFF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {59F81C49-99C8-4F1E-8353-3018A96927BF}
+	EndGlobalSection
+EndGlobal
