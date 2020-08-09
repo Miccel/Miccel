@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Miccel.Context;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -10,6 +11,8 @@ namespace Miccel.Controllers
     {
         public ActionResult Index()
         {
+            MovieDBContext context = new MovieDBContext();
+            
             return View();
         }
 

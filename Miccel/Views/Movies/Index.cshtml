@@ -1,0 +1,27 @@
+﻿
+@model Miccel.ViewModels.RandomMoviesViewModel
+@{
+    ViewBag.Title = "Customers";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+<h2>Film</h2>
+
+@if (Model.Movies.Count == 0)
+{
+    <p>Non ci sono film</p>
+}
+else if (Model.Movies.Count == 1)
+{
+    <h2>@Model.Movies.First().Name</h2>
+}
+else
+{
+    <ul>
+        @foreach (var movie in Model.Movies)
+        {
+            <li>@movie.Name</li>
+        }
+    </ul>
+}

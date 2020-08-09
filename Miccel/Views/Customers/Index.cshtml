@@ -1,0 +1,22 @@
+﻿@model IEnumerable<Miccel.Models.Customer>
+@{
+    ViewBag.Title = "Customers";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+<h2>Customers</h2>
+
+@if (!Model.Any())
+{
+    <p>Non ci sono clieenti</p>
+}
+else
+{
+    <ul>
+        @foreach (var customer in Model)
+        {
+            <li>@customer.Name - @customer.MemberShipType_Id</li>
+        }
+    </ul>
+}
